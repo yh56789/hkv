@@ -1,13 +1,13 @@
 {
-  "name": "Heroku-v2ray",
-  "description": "将v2ray部署在Heroku上",
+  "name": "Hkv",
+  "description": "123",
   "keywords": [
-    "v2ray VMess VLESS"
+    "456"
   ],
   "env": {
     "PROTOCOL": {
-      "description": "协议VMess或VLESS，请填小写的vmess或vless",
-      "value": "vmess",
+      "description": "协议",
+      "value": "vless",
       "required": true
     },
     "UUID": {
@@ -17,12 +17,12 @@
     },
     "WS_PATH": {
       "description": "websocket路径",
-      "value": "/ray",
+      "value": "/hkv",
       "required": true
     }
   },
-  "website": "https://github.com/Lbingyi/HerokuXray",
-  "repository": "https://github.com/Lbingyi/HerokuXray",
+  "website": "https://github.com/yh56789/hkv",
+  "repository": "https://github.com/yh56789/hkv",
   "stack": "container",
   "features": [
     "runtime-dyno-metadata"
